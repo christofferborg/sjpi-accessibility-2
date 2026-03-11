@@ -1,4 +1,4 @@
-// Simulerad blockering av tråden
+/* // Simulerad blockering av tråden
 setInterval(() => {
     let start = Date.now()
     while (Date.now() - start < 1000) {}
@@ -23,4 +23,4 @@ setInterval(() => {
   // Loggar 100 000 siffror direkt när sidan laddas
   for (let i = 0; i < 100000; i++) {
     console.log(i)
-  }
+  } */
