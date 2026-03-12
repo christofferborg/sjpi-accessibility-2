@@ -15,8 +15,20 @@
       imagesrcset="img/hero-small.webp 480w, img/hero-medium.webp 800w, img/hero-large.webp 1200w"
       imagesizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px"
     />
-    <link rel="preload" href="fonts/Inter/Inter-VariableFont_opsz,wght.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link
+      rel="preload"
+      href="fonts/Inter/Inter-VariableFont_opsz,wght.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -25,13 +37,12 @@
     <header class="header">
       <div class="container">
         <nav class="navbar">
-          <a href="#home" class="logo">Vase Vista</a>
-          <!-- Navigation menu with duplicate IDs, inconsistent tabindex, and broken links to a 404 page -->
+          <a href="#home" tabindex="0" class="logo">Vase Vista</a>
           <ul class="nav-links">
-            <li><a id="1" tabindex="1" href="#home">Home</a></li>
-            <li><a id="2" tabindex="2" href="#collection">Collection</a></li>
-            <li><a href="#philosophy" tabindex="3">Philosophy</a></li>
-            <li><a tabindex="4" href="#">Contact</a></li>
+            <li><a id="1" href="#home">Home</a></li>
+            <li><a id="2" href="#collection">Collection</a></li>
+            <li><a href="#philosophy">Philosophy</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
